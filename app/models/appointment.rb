@@ -7,6 +7,6 @@ class Appointment < ActiveRecord::Base
   end
 
   def time
-    self.appointment_datetime.strftime("%m/%d/%Y")
+    self.appointment_datetime.strftime("%T")
   end
 end
