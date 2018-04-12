@@ -1,0 +1,2 @@
+class DcotorsController < ApplicationController
+end
