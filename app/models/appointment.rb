@@ -3,7 +3,7 @@ class Appointment < ActiveRecord::Base
   belongs_to :doctor
 
   def date
-    self.appointment_datetime.strftime("%m/%d/%Y")
+    self.appointment_datetime.strftime("%b %d, %Y")
   end
 
   def time
